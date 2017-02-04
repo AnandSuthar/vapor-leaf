@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<title>
+    Name of array
+</title>
+
+<body>
+    
+    #loop(names, "name") {
+    <h2> #(name) </h2>
+    }
+    
+</body>
+
+</html>

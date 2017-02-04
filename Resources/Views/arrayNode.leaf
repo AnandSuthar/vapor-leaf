@@ -1,0 +1,13 @@
+#extend("base")
+
+#export("head") {
+    <title>
+        Array of node
+    </title>
+}
+
+#export("body") {
+    #loop(users, "user") {
+        <h2> name=#(user.name) age=#(user.age) </h2>
+    }
+}

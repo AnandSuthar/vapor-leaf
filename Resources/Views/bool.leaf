@@ -1,0 +1,17 @@
+#extend("base")
+
+#export("head") {
+
+    <title> Bool in Leaf </title>
+
+}
+
+#export("body") {
+
+    #if(onoff) {
+        <h1> Hiiiii </h1>
+    } ##else() {
+        <h1> Bye </h1>
+    }
+
+}
